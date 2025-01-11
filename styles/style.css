@@ -186,13 +186,13 @@
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
-    grid-template-rows: 560px; /* высота блока 595px (~ как у карточки выше) минус верхний паддинг 35px*/
     gap: 25px;
     padding-top: 35px;
 }
 
 .about__column:last-of-type {
     align-self: end;
+    padding-top: 100px;
 }
 
 .about__logo {
@@ -219,10 +219,11 @@
 
 .about__text {
     font-size: 20px;
+    line-height: 24px;
     margin-bottom: 24px;
 }
 
-.about__text:last-of-type {
+.about__text-no-margin-bottom {
     margin-bottom: 0;
 }
 
