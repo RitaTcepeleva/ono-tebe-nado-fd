@@ -99,7 +99,7 @@
 .bet-button {
     color: #fff;
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid currentColor;
     font-size: 22px;
     text-transform: uppercase;
     padding: 12px 32px 11px 31px;
