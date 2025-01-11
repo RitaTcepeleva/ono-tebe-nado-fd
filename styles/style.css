@@ -1,3 +1,7 @@
+.header, .main, .footer {
+    text-underline-position: under;
+}
+
 .header {
     padding: 92px 50px 96px;
     display: grid;
@@ -35,7 +39,6 @@
     font-style: normal;
     max-width: 240px;
     line-height: 135%;
-    text-underline-position: under;
 }
 
 .header > .address {
@@ -230,8 +233,7 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 180px;
-    padding: 0 50px;
+    padding: 0 50px 82px;
     font-size: 18px;
 }
 
@@ -242,6 +244,8 @@
 .footer__menu-list {
     justify-self: center;
     text-align: center;
+    line-height: 22px;
+    text-underline-position: under;
 }
 
 .footer__social-list {
