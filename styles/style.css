@@ -14,10 +14,12 @@
     display: flex;
     gap: 28px;
     list-style: circle;
+    text-indent: 5px;
 }
 
 .header__links-list-item_no-bullit {
     list-style: none;
+    text-indent: 0;
 }
 
 .header__link_active {
